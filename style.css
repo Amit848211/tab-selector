@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+}
+h1{
+    text-align: center;
+}
+.left_side img{
+    height:60vh;
+    width: 30vw;
+ border-radius: 10px;
+    /* border: ; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 60px ;
+
+}
+.right_side{
+    /* padding: 10px; */
+    height: 60vh;
+    width: 30vw;
+    margin: 30px;
+    background-color: rgb(195, 202, 195);
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0,0,0);
+
+
+}
+#p1,#p2,#p3{
+    padding: 10px;
+    color:rgb(45, 45, 40);
+}
+.tab .inner{
+    background-color: blanchedalmond;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 6px;
+
+
+    
+}
+.paragraphs{
+    margin-top: 20px;
+   
+    font-family: sans-serif;
+
+}
+button{
+    height:50px ;
+    width: 30%;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(132, 168, 168);
+    font-size:larger;
+    color: rgb(4, 4, 4);
+    border: hidden;
+
+}
+#step1{
+    font-weight: bold;
+    font-size:larger;
+    
+}
+#step2{
+    font-weight: bold;
+    font-size:larger;
+
+}
+#step3{
+    font-weight: bold;
+    font-size:larger;
+
+
+}
